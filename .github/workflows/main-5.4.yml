@@ -58,6 +58,7 @@ jobs:
         webroot: ${{ github.workspace }}/lucee/test
         execute: /bootstrap-tests.cfm
         luceeVersion: ${{ env.luceeVersion }}
+        luceeVersionQuery: ${{ env.luceeVersionQuery }}
         extensionDir: ${{ github.workspace }}/dist
         extensions: 87FE44E5-179C-43A3-A87B3D38BEF4652E # eh-cache extension required
       env:
